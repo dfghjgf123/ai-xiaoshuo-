@@ -79,7 +79,7 @@ export const chatModels: ChatModel[] = [
     id: "deepseek/chat",
     name: "DeepSeek Chat",
     provider: "deepseek",
-    description: "用于小说创作的AI模型",
+    description: "AI model for novel writing",
   }
 ];
 
