@@ -74,15 +74,13 @@ export const chatModels: ChatModel[] = [
     provider: "reasoning",
     description: "Reasoning optimized for code",
   },
+  // DeepSeek
   {
-  id: "deepseek-v3",
-  name: "DeepSeek V3",
-  maxLength: 12000
-  price: 1
-  tokenLimit: 4000,
-  provider: "deepseek",
- }, 
-
+    id: "deepseek/chat",
+    name: "DeepSeek Chat",
+    provider: "deepseek",
+    description: "用于小说创作的AI模型",
+  },
 ];
 
 // Group models by provider for UI
