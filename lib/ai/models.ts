@@ -77,8 +77,8 @@ export const chatModels: ChatModel[] = [
   {
   id: "deepseek-v3",
   name: "DeepSeek V3",
-  maxLength: 12000,
-  price: 1,
+  maxLength: 12000
+  price: 1
   tokenLimit: 4000,
   provider: "deepseek",
  }, 
