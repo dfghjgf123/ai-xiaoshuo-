@@ -80,8 +80,8 @@ export const chatModels: ChatModel[] = [
     name: "DeepSeek Chat",
     provider: "deepseek",
     description: "用于小说创作的AI模型",
-  },
-];
+  }
+];  // ← 这是整个数组的结束，只在这里有一个 ];
 
 // Group models by provider for UI
 export const modelsByProvider = chatModels.reduce(
