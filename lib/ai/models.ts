@@ -74,7 +74,7 @@ export const chatModels: ChatModel[] = [
     provider: "reasoning",
     description: "Reasoning optimized for code",
   },
-];
+];{ id: "deepseek/chat", name: "DeepSeek Chat", provider: "deepseek", description: "用于小说创作的AI模型" }
 
 // Group models by provider for UI
 export const modelsByProvider = chatModels.reduce(
